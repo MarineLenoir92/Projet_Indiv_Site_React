@@ -9,6 +9,7 @@
     align-items: center;
     padding-top: 1.5px;
     padding-bottom: 1.5px;
+    z-index: 2;
 }
 
 .topLeft, .topRight{
@@ -44,7 +45,7 @@
 
 .topListItems{
     font-size: 20px;
-    font-weight: 590;
+    font-weight: 595;
     margin-left: 10%;
     margin-right: 10%;
     cursor: pointer;
