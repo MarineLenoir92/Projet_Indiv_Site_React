@@ -1,3 +1,60 @@
+.body{
+    margin: auto;
+}
+
 .sidebar{
     flex: 3;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    background-color: #6a9792;
+    flex-direction: column;
+    align-items: center;
 }
+
+.sidebarItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarTitle{
+    width: 70%;
+    font-family: 'Raleway', sans-serif;
+    color: #f2ede9;
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    border-top: 1px solid #f2ede9;
+    border-bottom: 1px solid #f2ede9;
+}
+
+.photoabout{
+    margin-top: 7%;
+    height: 40vh;
+}
+
+.sideText{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f2ede9;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    line-height: 150%;
+}
+
+/* MEDIA QUERIES MD */
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+}
+
+
+
+/* MEDIA QUERIES SM */
+
+@media only screen and (max-width: 576px){
+}
+
