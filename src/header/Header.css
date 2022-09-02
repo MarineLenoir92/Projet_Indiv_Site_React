@@ -30,7 +30,7 @@
     font-weight: 595;
     letter-spacing: 3px;
     color: white;
-    z-index: 2;
+    z-index: 1;
     text-shadow:-0.4px 0.4px 0 #444,
                 0.4px 0.4px 0 #444,
                 0.4px -0.4px 0 #444,
@@ -41,6 +41,7 @@
     width: 100vw;
     object-fit: cover;  
     filter: grayscale(45%);
+    z-index: -1;
 }
 
 /* MEDIA QUERIES MD */
